@@ -1,0 +1,57 @@
+{
+    "POST": {
+        "type": "object",
+        "properties": {
+            "body": {
+                "type": "object",
+                "required": [
+                    "firstName"
+                ],
+                "properties": {
+                    "firstName": {
+                        "type": "string"
+                    }
+                }
+            },
+            "params": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                    "eventId"
+                ],
+                "properties": {
+                    "eventId": {
+                        "type": "string",
+                        "minLength": 24,
+                        "maxLength": 24
+                    }
+                }
+            }
+        }
+    },
+    "DELETE": {
+        "type": "object",
+        "properties": {
+            "params": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                    "eventId",
+                    "ticketId"
+                ],
+                "properties": {
+                    "eventId": {
+                        "type": "string",
+                        "minLength": 24,
+                        "maxLength": 24
+                    },
+                    "ticketId": {
+                        "type": "string",
+                        "minLength": 36,
+                        "maxLength": 36
+                    }
+                }
+            }
+        }
+    }
+}

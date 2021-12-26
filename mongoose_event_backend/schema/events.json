@@ -1,0 +1,99 @@
+{
+    "POST": {
+        "type": "object",
+        "properties": {
+            "body": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                    "title",
+                    "date",
+                    "maxNumberGuests"
+                ],
+                "properties": {
+                    "title": {
+                        "type": "string"
+                    },
+                    "date": {
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "maxNumberGuests": {
+                        "type": "integer",
+                        "minimum": 1
+                    }
+                }
+            }
+        }
+    },
+    "GET": {
+        "type": "object",
+        "properties": {
+            "params": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "eventId": {
+                        "type": "string",
+                        "minLength": 24,
+                        "maxLength": 24
+                    }
+                }
+            }
+        }
+    },
+    "PATCH": {
+        "type": "object",
+        "properties": {
+            "body": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "title": {
+                        "type": "string"
+                    },
+                    "date": {
+                        "type": "string"
+                    },
+                    "maxNumberGuests": {
+                        "type": "integer",
+                        "minimum": 1
+                    }
+                }
+            },
+            "params": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                    "eventId"
+                ],
+                "properties": {
+                    "eventId": {
+                        "type": "string",
+                        "minLength": 24,
+                        "maxLength": 24
+                    }
+                }
+            }
+        }
+    },
+    "DELETE": {
+        "type": "object",
+        "properties": {
+            "params": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                    "eventId"
+                ],
+                "properties": {
+                    "eventId": {
+                        "type": "string",
+                        "minLength": 24,
+                        "maxLength": 24
+                    }
+                }
+            }
+        }
+    }
+}
