@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "614d7f8316cdbe16fd09daa5"
+  },
+  "name": "Hamburger",
+  "image": {
+    "public_id": "test/s8tkxkuijzk0wc2m5pob",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1632468690/test/s8tkxkuijzk0wc2m5pob.jpg"
+  },
+  "createdAt": {
+    "$date": "2021-09-24T07:34:27.597Z"
+  },
+  "updatedAt": {
+    "$date": "2021-09-24T07:34:27.597Z"
+  }
+},{
+  "_id": {
+    "$oid": "616595f7a066d07c8b07ac28"
+  },
+  "name": "Desserts",
+  "image": {
+    "public_id": "test/xm1pauzziwjoztrvvjuu",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1634223291/test/xm1pauzziwjoztrvvjuu.jpg"
+  },
+  "createdAt": {
+    "$date": "2021-10-12T14:04:39.845Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-14T14:54:57.471Z"
+  }
+},{
+  "_id": {
+    "$oid": "6168613b6d3dced83a88314e"
+  },
+  "name": "Pizza",
+  "image": {
+    "public_id": "test/ahhuzztozmlbdhnrsjcs",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1634230583/test/ahhuzztozmlbdhnrsjcs.jpg"
+  },
+  "createdAt": {
+    "$date": "2021-10-14T16:56:27.600Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-14T16:56:27.600Z"
+  }
+}]

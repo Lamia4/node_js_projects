@@ -1,0 +1,181 @@
+[{
+  "_id": {
+    "$oid": "6168615f6d3dced83a883155"
+  },
+  "title": "Pizza Veggie",
+  "price": 4.2,
+  "description": "vegetable",
+  "image": {
+    "public_id": "test/onelpgnus05nn2hw8lef",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1634230605/test/onelpgnus05nn2hw8lef.jpg"
+  },
+  "category": {
+    "$oid": "6168613b6d3dced83a88314e"
+  },
+  "createdAt": {
+    "$date": "2021-10-14T16:57:03.281Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-14T16:57:03.281Z"
+  }
+},{
+  "_id": {
+    "$oid": "616861866d3dced83a883157"
+  },
+  "title": "Pizza tomato",
+  "price": 3.5,
+  "description": "tomato",
+  "image": {
+    "public_id": "test/rco3nfdf1qo8nqgt45en",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1634230652/test/rco3nfdf1qo8nqgt45en.jpg"
+  },
+  "category": {
+    "$oid": "6168613b6d3dced83a88314e"
+  },
+  "createdAt": {
+    "$date": "2021-10-14T16:57:42.949Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-14T16:57:42.949Z"
+  }
+},{
+  "_id": {
+    "$oid": "6168626b6d3dced83a883191"
+  },
+  "title": "cupcake",
+  "price": 3.5,
+  "description": "with fruit",
+  "image": {
+    "public_id": "test/jzumvgitcwz9dl552j70",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1634230878/test/jzumvgitcwz9dl552j70.jpg"
+  },
+  "category": {
+    "$oid": "616595f7a066d07c8b07ac28"
+  },
+  "createdAt": {
+    "$date": "2021-10-14T17:01:31.247Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-14T17:01:31.247Z"
+  }
+},{
+  "_id": {
+    "$oid": "616862846d3dced83a883193"
+  },
+  "title": "Donut",
+  "price": 2.5,
+  "description": "filled with chocolate",
+  "image": {
+    "public_id": "test/uga1oj170lpb7c0eswsy",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1634230900/test/uga1oj170lpb7c0eswsy.jpg"
+  },
+  "category": {
+    "$oid": "616595f7a066d07c8b07ac28"
+  },
+  "createdAt": {
+    "$date": "2021-10-14T17:01:56.486Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-14T17:01:56.486Z"
+  }
+},{
+  "_id": {
+    "$oid": "616862a96d3dced83a8831a1"
+  },
+  "title": "Chicken burger",
+  "price": 5.5,
+  "description": "tasty",
+  "image": {
+    "public_id": "test/xy1ziq5k4znj1jkfhnji",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1634230939/test/xy1ziq5k4znj1jkfhnji.jpg"
+  },
+  "category": {
+    "$oid": "614d7f8316cdbe16fd09daa5"
+  },
+  "createdAt": {
+    "$date": "2021-10-14T17:02:33.760Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-14T17:02:33.760Z"
+  }
+},{
+  "_id": {
+    "$oid": "616862b96d3dced83a8831a3"
+  },
+  "title": "Cheese burger",
+  "price": 4.2,
+  "description": "cheese",
+  "image": {
+    "public_id": "test/cn7izkzmnmm5aovyzljh",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1634230959/test/cn7izkzmnmm5aovyzljh.jpg"
+  },
+  "category": {
+    "$oid": "614d7f8316cdbe16fd09daa5"
+  },
+  "createdAt": {
+    "$date": "2021-10-14T17:02:49.737Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-14T17:02:49.737Z"
+  }
+},{
+  "_id": {
+    "$oid": "616862f86d3dced83a8831bd"
+  },
+  "title": "pizza hawai",
+  "price": 4.2,
+  "description": "hawai",
+  "image": {
+    "public_id": "test/ch8ope8skfp9sviuypyw",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1634231017/test/ch8ope8skfp9sviuypyw.jpg"
+  },
+  "category": {
+    "$oid": "6168619f6d3dced83a88315d"
+  },
+  "createdAt": {
+    "$date": "2021-10-14T17:03:52.955Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-14T17:03:52.955Z"
+  }
+},{
+  "_id": {
+    "$oid": "6168632d6d3dced83a8831c7"
+  },
+  "title": "muffin with cherry",
+  "price": 3,
+  "description": "with cream",
+  "image": {
+    "public_id": "test/fkkjtz5uw2bi7wc1ocxc",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1634231070/test/fkkjtz5uw2bi7wc1ocxc.jpg"
+  },
+  "category": {
+    "$oid": "616595f7a066d07c8b07ac28"
+  },
+  "createdAt": {
+    "$date": "2021-10-14T17:04:45.174Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-15T07:25:54.435Z"
+  }
+},{
+  "_id": {
+    "$oid": "616863506d3dced83a8831c9"
+  },
+  "title": "cake with cream",
+  "price": 5.5,
+  "description": "strawberry, cream",
+  "image": {
+    "public_id": "test/itplqvd0jrgltpoceap7",
+    "url": "https://res.cloudinary.com/dobjmp8w8/image/upload/v1634231093/test/itplqvd0jrgltpoceap7.jpg"
+  },
+  "category": {
+    "$oid": "616862396d3dced83a88317d"
+  },
+  "createdAt": {
+    "$date": "2021-10-14T17:05:20.198Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-14T17:05:20.198Z"
+  }
+}]
